@@ -1,0 +1,68 @@
+.main-body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #FFF;
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+  }
+  
+  .prod-grid {
+    flex: 1 1 203px; /* Responsive width */
+    padding: 10px;
+    background: #faf9ec;
+    border: 1px solid #EFEFEF;
+    text-align: center;
+  }
+  
+  .prod-grid img {
+    width: 100%;
+    max-width: 203px;
+    margin-bottom: 10px;
+  }
+  
+  .prod-title {
+    font-size: 1em;
+    margin-bottom: 0.6em;
+  }
+  
+  .prod-title a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .prod-tree {
+    color: #8b8b8b;
+    margin: 0.5em 0;
+  }
+  
+  .hilight {
+    color: #f5b83e;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  
+  .view {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .view a {
+    padding: 10px;
+    color: #8b8b8b;
+    background: url('../../public/assets/images/pick.png') no-repeat 5px center;
+    text-decoration: none;
+    line-height: 2em;
+  }
+  
+  .view a.order {
+    color: #FFF;
+    background-color: #f5b83e;
+  }
+  
+  .view a:hover {
+    background-color: #303030;
+    color: #FFF;
+  }

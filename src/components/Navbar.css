@@ -1,0 +1,59 @@
+.nav {
+    clear: right;
+    float: left;
+    width: 100%;
+    background: #303030;
+    position: relative;
+    color: #FFF;
+    font-size: 10pt;
+    margin-bottom: 40px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav li {
+    float: left;
+    display: inline-block;
+  }
+  
+  .nav li a {
+    background: url('../../public/assets/images/pick.png') no-repeat 5px center;
+    display: block;
+    line-height: 39px;
+    padding: 0 6px 0 20px;
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    background-color: #f5b83e;
+  }
+  
+  .nav li ul.subnav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: url('../../public/assets/images/trans_bg_black.png');
+    display: none;
+    padding: 0;
+  }
+  
+  .nav li ul.subnav li {
+    display: inline-block;
+  }
+  
+  .nav li:hover ul.subnav {
+    display: block;
+  }
+  
+  .nav li ul.subnav li a {
+    display: block;
+    line-height: 40px;
+    padding: 0 6px;
+    text-decoration: none;
+    color: #FFF;
+  }
+  
+  .nav li ul.subnav li a:hover {
+    background: #f5b83e;
+  }
