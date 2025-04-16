@@ -51,8 +51,9 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
-      "rrp": 699.00
+      "short": "A beautifully crafted neck-through electric guitar with a carved Canadian Maple top.",
+      "description": "Built with a neck-through-body construction and a carved arch top, this guitar features stunning Canadian Maple for exceptional sustain and tonal clarity. Its incremental dot inlays, locking nut, and Genesys high-output humbuckers make it perfect for players seeking precision and power.",
+      "rrp": 699.00,
     },
     {
       "id": 2,
@@ -82,7 +83,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A powerful electric guitar with a Floyd Rose tremolo and high-output humbuckers.",
+      "description": "The AD-5144 features a neck-through-body construction with a stunning birch body, a Canadian maple and nayto neck, and a rosewood fingerboard for smooth playability and sustained tone. Equipped with Genesys High Output Humbuckers and a Floyd Rose-type tremolo, this electric guitar delivers powerful, articulate sound for high-performance playing.",
       "rrp": 699.00
     },
     {
@@ -113,7 +115,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A stylish solid-body electric guitar with a quilted maple top and dual humbuckers.",
+      "description": "The AD-R3534 features a bolt-on construction with a solid body and a stunning quilted maple top. Its 3-piece maple neck with white binding and a jagged-edge inlay adds a sharp, distinctive look. Equipped with zebra humbuckers and a classic two-stud tremolo system, this guitar delivers a dynamic range of tones with rock-solid stability.",
       "rrp": 549.00
     },
     {
@@ -144,7 +147,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A striking electric guitar with a translucent ash top and versatile pickup configuration.",
+      "description": "The AX-2556 features a bolt-on construction with a stunning translucent ash top and natural binding. Its Canadian maple neck with white binding and a 14° pitched head enhances sustain and playability. Equipped with two hot rails single coils and a humbucker, this guitar offers a dynamic range of tones, complemented by a Wilkinson WVP tremolo system for expressive performance.",
       "rrp": 649.00
     },
     {
@@ -175,7 +179,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A bold electric guitar with a translucent red ash top and versatile pickup configuration.",
+      "description": "The AX-3556 features a bolt-on construction with a stunning translucent red ash top and natural binding, complemented by a Canadian maple neck with white binding and a 14° pitched head for enhanced sustain. Equipped with two hot rails single coils and a humbucker, along with a Wilkinson WVP tremolo, this guitar offers incredible tonal versatility and smooth playability.",
       "rrp": 649.00
     },
     {
@@ -206,7 +211,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A sleek electric guitar with a translucent black ash top and versatile tone options.",
+      "description": "The AX-4556 features a bolt-on construction with a striking translucent black ash top and natural binding, paired with a Canadian maple neck for smooth playability. Equipped with two hot rails single coils and a humbucker, this guitar delivers dynamic tonal versatility, enhanced by a Wilkinson WVP tremolo system for expressive performance.",
       "rrp": 649.00
     },
     {
@@ -237,7 +243,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A premium neck-through guitar with an alder body and Seymour Duncan pickups.",
+      "description": "The AXD-5177 features a neck-through-body construction for enhanced sustain, paired with an alder body and a 3-piece maple and nayto neck. Its rosewood fingerboard is adorned with special mother-of-pearl dot inlays, while Seymour Duncan pickups and a Wilkinson VS-50 tremolo provide exceptional tone versatility and smooth playability.",
       "rrp": 1339.00
     },
     {
@@ -268,7 +275,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A high-performance neck-through guitar with a swamp ash body and Floyd Rose tremolo.",
+      "description": "The AXD-5647 features a neck-through-body construction with a resonant swamp ash body and a 3-piece maple with nayto neck for excellent sustain. Its rosewood fingerboard is adorned with special mother-of-pearl dot inlays, while the Floyd Rose-type tremolo and rear-locking matte chrome machine heads ensure stability and precision for expressive playing.",
       "rrp": 1449.00
     },
     {
@@ -299,7 +307,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A semi-hollow electric with a flamed maple top and gold hardware for a classic look.",
+      "description": "The GP-SH40 features a set-neck construction with a semi-hollow, double cutaway body, offering warm resonance and enhanced sustain. Its flamed Canadian maple top, paired with a Canadian maple neck and rosewood fingerboard, delivers a smooth playing experience. Equipped with two ceramic humbuckers and a Tune-O-Matic bridge, this guitar provides rich, expressive tones with a touch of vintage flair.",
       "rrp": 999.00
     },
     {
@@ -330,7 +339,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A semi-acoustic single-cutaway guitar with a flamed maple top and gold hardware.",
+      "description": "The GP-SA40 features a set-neck construction with a semi-acoustic, single-cutaway design, offering rich resonance and classic aesthetics. Its flamed Canadian maple top, combined with a Canadian maple neck and rosewood fingerboard, ensures smooth playability. Equipped with a gold-covered humbucker, a Tune-O-Matic bridge, and gold button die-cast machine heads, this guitar delivers a warm, vintage-inspired tone perfect for expressive playing.",
       "rrp": 1099.00
     },
     {
@@ -361,7 +371,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A bold electric guitar with a crater-cut maple top and dual zebra humbuckers.",
+      "description": "The R-Inc features a set-neck construction with a unique crater-cut maple top on a ginko body, ensuring rich resonance and striking aesthetics. Its Canadian hard maple neck with binding adds stability and playability, while the dual zebra humbuckers and Tune-O-Matic bridge deliver powerful, articulate tones with smooth sustain.",
       "rrp": 649.00
     },
     {
@@ -392,7 +403,8 @@
       "radius": null,
       "rosette": null,
       "binding": "",
-      "description": null,
+      "short": "A bold electric guitar with a carved arch top and Floyd Rose tremolo.",
+      "description": "The K-3442 features a bolt-on construction with a solid alder body and a striking carved arch top. Its maple neck with a 14° pitched head ensures stability and comfortable playability. Equipped with Wilkinson pickups and a Floyd Rose-type tremolo, this guitar delivers dynamic tones and effortless dive bombs for high-energy performance.",
       "rrp": 599.00
     },
     {
@@ -423,7 +435,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A striking electric guitar with a carved alder body and Floyd Rose tremolo.",
+      "description": "The K-4442 features a bolt-on construction with a solid alder body and a dramatic carved arch top. Its maple neck with a 14° pitched head ensures smooth playability and precision. Equipped with Wilkinson pickups and a Floyd Rose-type tremolo system, this guitar offers dynamic tone versatility and rock-solid tuning stability.",
       "rrp": 599.00
     },
     {
@@ -454,7 +467,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A stylish electric guitar with a synthetic quilted maple top and Genesys humbuckers.",
+      "description": "The SP-7534 features a bolt-on construction with an alder body and a synthetic quilted maple top, offering a striking look and balanced tone. Its Canadian maple neck with a 14° pitched head ensures smooth playability, while the Genesys humbuckers and classic two-stud tremolo deliver a dynamic range of sounds for versatile performance.",
       "rrp": 499.00
     },
     {
@@ -485,7 +499,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A stunning electric guitar with a flamed maple top and Alnico 5 pickups.",
+      "description": "The ST-1356 features a bolt-on construction with an alder body and a genuine flamed maple top, offering striking aesthetics and balanced tones. Its Canadian maple neck with a carved headstock and rosewood fingerboard ensures smooth playability. Equipped with Alnico 5 pickups—two humbuckers and a blade bar—along with a Wilkinson VS-50 tremolo, this guitar delivers versatile tones suited for expressive performance.",
       "rrp": 649.00
     },
     {
@@ -516,7 +531,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A stunning electric guitar with a flamed maple top and Alnico 5 pickups.",
+      "description": "The ST-2356 features a bolt-on construction with an alder body and a genuine flamed maple top, delivering both striking aesthetics and balanced tones. Its Canadian maple neck with a carved headstock and rosewood fingerboard ensures smooth playability. Equipped with Alnico 5 pickups—two humbuckers and a blade bar—along with a Wilkinson VS-50 tremolo, this guitar provides exceptional tonal versatility and performance-ready reliability.",
       "rrp": 649.00
     },
     {
@@ -547,7 +563,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A striking electric guitar with a flamed maple top and Alnico 5 pickups.",
+      "description": "The ST-4356 features a bolt-on construction with an alder body and a genuine flamed maple top, delivering a bold look and balanced tones. Its Canadian maple neck with a carved headstock and rosewood fingerboard ensures smooth playability. Equipped with Alnico 5 pickups—two humbuckers and a blade bar—along with a Wilkinson VS-50 tremolo, this guitar provides exceptional tonal versatility and reliability for professional performance.",
       "rrp": 649.00
     },
     {
@@ -578,7 +595,8 @@
       "radius": null,
       "rosette": "Wooden Inlay",
       "binding": "Black Multi Binding",
-      "description": null,
+      "short": "A classic acoustic guitar with a solid spruce top and mahogany back and sides.",
+      "description": "The GMD-02S features a solid spruce top with mahogany back and sides, delivering warm resonance and balanced tones. Its nayto neck with a sonokeling fingerboard ensures smooth playability, while the wooden inlay rosette and black multi-binding add an elegant touch to its traditional design.",
       "rrp": 349.00
     },
     {
@@ -609,7 +627,8 @@
       "radius": null,
       "rosette": "Abalone, Triple Ring",
       "binding": "White with Abalone",
-      "description": null,
+      "short": "A beautifully crafted acoustic with a spruce top and abalone detailing.",
+      "description": "The GMD-04C features a spruce top with mahogany back and sides, delivering warm tones with excellent resonance. Its nayto neck with white binding and rosewood fingerboard ensures smooth playability, while the abalone triple-ring rosette and white abalone binding add an elegant touch to its timeless design.",
       "rrp": 349.00
     },
     {
@@ -640,7 +659,8 @@
       "radius": null,
       "rosette": "Herringbone",
       "binding": "White Multi Binding",
-      "description": null,
+      "short": "An elegant acoustic guitar with a flamed maple top and herringbone rosette.",
+      "description": "The GMD-M03 features a flamed Canadian maple top with a glossy back and sides, offering striking aesthetics and rich tones. Its maple neck with white binding, paired with a rosewood fingerboard, ensures smooth playability. Complete with a herringbone rosette and white multi-binding, this guitar embodies a refined look with warm resonance.",
       "rrp": 449.00
     },
     {
@@ -671,7 +691,8 @@
       "radius": null,
       "rosette": "Mahogany",
       "binding": "Maple Multi Binding",
-      "description": null,
+      "short": "A unique acoustic guitar with a spruce top and a dragon-etched open-pore finish.",
+      "description": "The GMD-GEN1 features a spruce top with mahogany back and sides, offering warm, balanced tones. Its nayto neck with maple binding and rosewood fingerboard ensures comfortable playability, while the gold die-cast machine heads with black buttons add a refined touch. The open-pore dragon etch finish, complemented by a mahogany rosette and maple multi-binding, makes this guitar a visually stunning instrument with a distinctive character.",
       "rrp": 439.00
     },
     {
@@ -702,7 +723,8 @@
       "radius": null,
       "rosette": null,
       "binding": "Rosewood",
-      "description": null,
+      "short": "A refined classical guitar with a solid red cedar top and mahogany body.",
+      "description": "The C-60S features a solid red cedar top with solid mahogany back and sides, producing warm, resonant tones with excellent sustain. Its three-piece nayto neck with a rosewood center enhances stability, while the rosewood fingerboard and bridge provide smooth playability. Finished in matte for a natural aesthetic, this guitar is built for rich acoustic expression.",
       "rrp": 399.00
     },
     {
@@ -733,7 +755,8 @@
       "radius": null,
       "rosette": "Triple Ring",
       "binding": "White Multi Binding",
-      "description": null,
+      "short": "An elegant acoustic-electric guitar with a spruce top and 5-band EQ.",
+      "description": "The GM-AB01C features a spruce top with mahogany back and sides, delivering warm, balanced tones with rich resonance. Its Canadian maple neck with a rosewood fingerboard ensures smooth playability, while the chrome die-cast machine heads provide stability. Equipped with a 5-band EQ for precise tone shaping, this guitar is perfect for both studio and stage performances.",
       "rrp": 599.00
     },
     {
@@ -764,7 +787,8 @@
       "radius": "400mm",
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A powerful bass guitar with a solid ash body and neck-through construction.",
+      "description": "The EB-3135 features a neck-through-body construction with a solid ash body and a hard maple with nayto neck for enhanced sustain and stability. Its rosewood fingerboard ensures smooth playability, while the dual soap bar pickups provide rich, articulate bass tones. Complete with a solid brass bridge and chrome die-cast machine heads, this bass is built for precision and reliability.",
       "rrp": 699.00
     },
     {
@@ -795,7 +819,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": null,
+      "short": "A sleek fretless bass with a swamp ash body and JB single-coil pickups.",
+      "description": "The EB-5623 features a fretless design with a synthetic insert, allowing for smooth slides and expressive tones. Its swamp ash body, paired with a hard maple neck and 14° pitched head, delivers resonant sound and stability. Equipped with JB single-coil and MA-4 pickups, a die-cast bridge, and black hardware, this bass offers a distinctive tonal range for dynamic playing styles.",
       "rrp": 599.00
     },
     {
@@ -826,7 +851,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": "ABS Hard case for electric guitar",
+      "short": "A durable ABS hard case designed for electric guitars.",
+      "description": "The GCE-Deluxe is a robust ABS hard case built to protect electric guitars during storage and transport. Featuring a secure interior lining and reinforced edges, it offers reliable protection while maintaining a sleek, professional look.",
       "rrp": 149.00
     },
     {
@@ -857,7 +883,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": "ABS Hardcase for electric Bass",
+      "short": "A rugged ABS hard case designed for electric bass guitars.",
+      "description": "The GCB-Deluxe is a durable ABS hard case built for protecting electric bass guitars during transport and storage. Its reinforced structure and secure interior padding ensure maximum safety while maintaining a professional appearance.",
       "rrp": 189.00
     },
     {
@@ -888,7 +915,8 @@
       "radius": null,
       "rosette": null,
       "binding": null,
-      "description": "Elite Hardcase for acoustic guitar",
+      "short": "A premium hard case designed for acoustic guitars.",
+      "description": "The GCA-Elite is a durable and stylish hard case built to protect acoustic guitars during storage and transport. Featuring a secure interior lining and reinforced edges, it offers reliable protection while maintaining an elegant design.",
       "rrp": 99.00
     }
   ]
