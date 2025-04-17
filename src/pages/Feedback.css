@@ -1,0 +1,35 @@
+.feedback {
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feedback ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feedback li {
+    padding: 15px;
+    border-left: 4px solid #b8b6b6;
+    margin-bottom: 15px;
+    background: white;
+    border-radius: 5px;
+  }
+  
+  .feedback blockquote {
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+    margin: 0 0 10px 0;
+  }
+  
+  .feedback cite {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #777;
+  }
