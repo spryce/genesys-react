@@ -1,44 +1,41 @@
+/* Sidebar styling */
 .side-nav {
-    width: 250px;
+    max-width: 250px;
     float: left;
     background-color: #f4f4f4;
     padding: 20px;
+    border-radius: 8px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     height: 100vh; /* Full height */
     position: sticky;
     top: 0;
     overflow-y: auto; /* Scroll if content overflows */
+    font-family: 'Poppins', sans-serif;
+    color: #444;
   }
-  
+
   .side-nav ul {
     list-style: none;
     padding: 0;
   }
   
   .side-nav li {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
   
   .side-nav a {
-    text-decoration: none;
+    background: url('/public/assets/images/pick.png') no-repeat 5px center;
+    display: block;
+    line-height: 39px;
+    padding: 0 6px 0 20px;
     color: #333;
+    text-decoration: none;
+  }
+
+  .side-nav ul li:hover {
+    background-color: #f5b83e;
   }
   
   .side-nav a.active {
-    font-weight: bold;
-    color: #0078d4; /* Accent color */
-  }
-  
-  .side-nav ul ul {
-    margin-top: 10px;
-    padding-left: 15px;
-  }
-  
-  .side-nav ul ul li {
-    margin-bottom: 10px;
-  }
-  
-  #main-content {
-    margin-left: 270px; /* Adjust to match the side-nav width */
-    padding: 20px;
+    color: #3b4953; /* Accent color */
   }

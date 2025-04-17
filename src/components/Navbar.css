@@ -1,59 +1,60 @@
 .nav {
-    clear: right;
-    float: left;
-    width: 100%;
-    background: #303030;
-    position: relative;
-    color: #FFF;
-    font-size: 10pt;
-    margin-bottom: 40px;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .nav li {
-    float: left;
-    display: inline-block;
-  }
-  
-  .nav li a {
-    background: url('../../public/assets/images/pick.png') no-repeat 5px center;
-    display: block;
-    line-height: 39px;
-    padding: 0 6px 0 20px;
-    color: #FFF;
-    text-decoration: none;
-  }
-  
-  .nav li a:hover {
-    background-color: #f5b83e;
-  }
-  
-  .nav li ul.subnav {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    background: url('../../public/assets/images/trans_bg_black.png');
-    display: none;
-    padding: 0;
-  }
-  
-  .nav li ul.subnav li {
-    display: inline-block;
-  }
-  
-  .nav li:hover ul.subnav {
-    display: block;
-  }
-  
-  .nav li ul.subnav li a {
-    display: block;
-    line-height: 40px;
-    padding: 0 6px;
-    text-decoration: none;
-    color: #FFF;
-  }
-  
-  .nav li ul.subnav li a:hover {
-    background: #f5b83e;
-  }
+  display: flex; /* Use flexbox for alignment */
+  grid-column: span 2; /* Navbar spans both columns */  
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Vertically align items */
+  background: #303030; /* Dark background */
+  border-radius: 8px;
+  color: #FFF;
+  font-size: 10pt;
+  height: 48px;
+  margin-bottom: 80px;
+  list-style: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: relative; /*Position relative for subnav dropdowns */
+}
+
+/* Navbar items */
+.nav li {
+  margin-right: 20px; /* Add spacing between items */
+}
+
+.nav li a {
+  background: url('../../public/assets/images/pick.png') no-repeat 5px center;
+  display: inline-block;
+  line-height: 39px;
+  padding: 0 6px 0 20px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #f5b83e; /* Highlight color */
+}
+
+/* Subnav dropdown styling */
+.nav li ul.subnav {
+  position: absolute;
+  left: 0; /* Align with the parent li */
+  width: 1000px;
+  background: black; /* Replace the image */
+  opacity: 0.9; /* Adjust transparency */
+  display: none; /* Hidden by default */
+  padding: 0;
+  white-space: nowrap; /* Keep items on one line */
+}
+
+.nav li ul.subnav li {
+  display: inline-block; /* Align dropdown items horizontally */
+  margin-right: 10px; /* Add spacing between items */
+}
+
+.nav li:hover ul.subnav {
+  display: block; /* Show dropdown on hover */
+}
+
+.nav li h3
+{
+  display: inline-block; 
+  margin: 4px 0; /* Stop pushing subnave away */
+}

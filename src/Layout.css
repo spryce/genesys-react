@@ -1,0 +1,23 @@
+/* Center the entire app content */
+#container {
+    max-width: 1000px; /* Restrict content width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 0; /* Add side padding for smaller screens */
+    box-sizing: border-box;
+}
+  
+/* Header styling for the logo */
+.app-header {
+text-align: right; /* Center the logo horizontally */
+}
+
+.app-logo {
+max-width: 300px; /* Limit the logo's width for better visual balance */
+height: auto; /* Maintain aspect ratio */
+}
+
+#main-content {
+    display: grid; /* Use grid for layout */
+    grid-template-columns: 200px 1fr; /* Sidebar (200px) + Main content */
+    gap: 20px; /* Space between SideNav and ProductGrid */
+}

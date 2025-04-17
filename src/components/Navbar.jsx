@@ -17,7 +17,11 @@ const Navbar = () => {
 
         return (
           <li key={category.categoryId}>
-            <h3><a href={`/category/${category.categoryId}`}>{category.categoryName} Guitars</a></h3>
+            <h3>
+              <a href={`/category/${category.categoryId}`}>
+                {`${category.categoryName.charAt(0).toUpperCase()}${category.categoryName.slice(1)}`} Guitars
+              </a>
+            </h3>
             {categorySeries.length > 0 && (
               <ul className="subnav">
                 {categorySeries.map((s) => (
@@ -30,15 +34,9 @@ const Navbar = () => {
           </li>
         );
       })}
-
-      <li style={{ float: "right" }}>
-        <h3><a href="/login">Dealer Login</a></h3>
-      </li>
+      
       <li>
-        <h3><a href="/about">About Genesys</a></h3>
-      </li>
-      <li>
-        <h3><a href="/contact">Contact</a></h3>
+        <h3><a href="/about">About</a></h3>
       </li>
     </ul>
   );
