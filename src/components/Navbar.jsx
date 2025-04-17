@@ -13,7 +13,6 @@ const Navbar = ({ onCategorySelect, onSeriesSelect }) => {
     onSeriesSelect(null); // Reset series selection when switching categories
     navigate("/");
   };
-  
 
   const handleSeriesClick = (seriesId, event) => {
     event.preventDefault(); // Prevent default `<a>` behavior
@@ -26,9 +25,7 @@ const Navbar = ({ onCategorySelect, onSeriesSelect }) => {
     <ul className="nav">
       <li>
         <h3><a href="/">All Products</a></h3>
-        {/* <h3><a href="/" onClick={(event) => handleCategoryClick(null, event)}>All Products</a></h3> */}
       </li>
-
       {categories.map((category) => {
         const categorySeries = series.filter((s) => s.categoryId === category.categoryId);
 
@@ -51,10 +48,8 @@ const Navbar = ({ onCategorySelect, onSeriesSelect }) => {
               </ul>
             )}
           </li>
-
         );
-      })}
-      
+      })}      
       <li>
         <h3><a href="/about">About</a></h3>
       </li>

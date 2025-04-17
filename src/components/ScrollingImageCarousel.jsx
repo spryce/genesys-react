@@ -8,13 +8,31 @@ const ScrollingImageCarousel = () => {
     const images = data.carousel.map((image) => `${imagePath}${image}`);
 
     useEffect(() => {
-        const totalWidth = images.length * (200 + 20); // Image width + gap
-        carouselRef.current.style.width = `${totalWidth}px`; // Set total width dynamically
-    }, []);
+      if (!carouselRef.current) return; // Ensure ref exists before modifying styles
+  
+      const totalWidth = images.length * (200 + 20);
+      carouselRef.current.style.width = `${totalWidth}px`;
+  
+      // Reset animation before restarting
+      carouselRef.current.style.animation = "none";
+      setTimeout(() => {
+          if (carouselRef.current) {
+              carouselRef.current.style.animation = "scrollLeft 80s linear infinite";
+          }
+      }, 10);
+  
+      // Cleanup function to reset animation on unmount
+      return () => {
+          if (carouselRef.current) {
+              carouselRef.current.style.animation = "none";
+          }
+      };
+  }, []);
+
 
     return (
-        <div className="carousel-container">
-          <div className="carousel" ref={carouselRef}>
+        <div className="scroll-carousel-container">
+          <div className="scroll-carousel" ref={carouselRef}>
             {[...images, ...images].map((src, index) => (
               <img key={index} src={src} alt={`Slide ${index + 1}`} />
             ))}
