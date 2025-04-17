@@ -1,0 +1,32 @@
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .carousel {
+    display: flex; /* Ensures images are laid out side by side */
+    flex-direction: row !important; /* Explicitly sets images in a row */
+    flex-wrap: nowrap; /* Prevents wrapping to the next line */
+    gap: 20px;
+    /* width: calc((200px + 20px) * 14); */
+    animation: scrollLeft 40s linear infinite; /* Make it long enough */
+  }
+  
+  .carousel img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    border-radius: 5px;
+    flex-shrink: 0; /* Prevents resizing issues */
+  }
+  
+  @keyframes scrollLeft {
+    from {
+      transform: translateX(0); /* Start in view */
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
