@@ -6,7 +6,6 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    height: 100vh; /* Full height */
     position: sticky;
     top: 0;
     overflow-y: auto; /* Scroll if content overflows */
