@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './ProductGrid.css';
 
 const ProductGrid = ({ products }) => {
-  const imageBasePath = '/assets/images/products/'; // Path to images folder
+  
+  const imageBasePath = '/assets/images/products/';
 
   return (
     <div className="main-body">
@@ -11,14 +13,14 @@ const ProductGrid = ({ products }) => {
         const imagePath = `${imageBasePath}${product.model.toLowerCase()}.jpg`;
 
         return (
-          <div key={product.id} className="prod-grid">
+          <Link key={product.id} to={`/product/${product.id}`} className="prod-card">
             <img src={imagePath} alt={product.model} />
-            <h2 className="prod-title">{product.model}</h2>
-            <p>Construction: {product.construction || 'N/A'}</p>
-            <p>Body: {product.body || 'N/A'}</p>
-            <p>Price: ${product.rrp.toFixed(2)}</p>
-          </div>
-        );
+              <h2 className="prod-title">{product.model}</h2>
+              <p>{product.short}</p>
+              <hr></hr>
+              <p>${product.rrp.toFixed(2)}</p>              
+          </Link>
+        )
       })}
     </div>
   );
