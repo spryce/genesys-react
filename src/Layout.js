@@ -12,10 +12,8 @@ const Layout = ({ categories, onCategorySelect, selectedCategory, onSeriesSelect
 
   const handleCategoryClick = (categoryId) => {
     onCategorySelect(categoryId);
-    // Redirect to product page if not already there
-    if (location.pathname !== "/") {
-      navigate("/");
-    }
+    onSeriesSelect(null); // Reset series selection when switching categories
+    navigate("/");
   };
 
   // Define pages where SideNav should be hidden
@@ -30,7 +28,11 @@ const Layout = ({ categories, onCategorySelect, selectedCategory, onSeriesSelect
       <main id="main-content">
       <Navbar onSeriesSelect={onSeriesSelect} onCategorySelect={onCategorySelect} />
         {!shouldHideSideNav && (
-          <SideNav categories={categories} onCategorySelect={handleCategoryClick} selectedCategory={selectedCategory} />
+          <SideNav 
+            categories={categories} 
+            onCategorySelect={handleCategoryClick} 
+            selectedCategory={selectedCategory} 
+          />
         )}
         <Outlet />
       </main>
