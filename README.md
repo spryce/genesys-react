@@ -3,7 +3,9 @@
 ## **Overview**
 Genesys Guitars is a **modernized React application** designed to bring the best of high-quality guitars directly to music lovers. Originally built as a **PHP-based web app**, it has now been fully **ported to React** for better performance, scalability, and maintainability.
 
-This application is **designed for seamless deployment on AWS S3**, making it highly efficient as a **static site** with **JSON-based data management** instead of a traditional database.
+This application is **designed for seamless deployment on AWS S3 via CloudFront**, making it highly efficient as a **static site** with **JSON-based data management** instead of a traditional database.
+
+This project is intentionally simple as Genesys no longer operates an online store. The images are ancient with some missing and lost to the sands of time...
 
 ---
 
